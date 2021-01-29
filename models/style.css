@@ -13,15 +13,12 @@ body {
     color: rgb(0, 88, 88);
     border-radius: 10px;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 16px;
-    margin-bottom: 8px;
-    padding: 16px;
+    margin: 16px auto;
+    padding: 8px 16px;
     overflow: auto;
 }
 
-.card p {
+.card-text {
     max-width: fit-content;
     text-align: justify;
 }
