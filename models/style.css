@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    box-sizing: border-box;
+    background-color: darkcyan;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.card {
+    background-color: aliceblue;
+    color: rgb(0, 88, 88);
+    border-radius: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.card p {
+    max-width: fit-content;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 80%;
+    }
+}
